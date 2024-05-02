@@ -1,0 +1,114 @@
+/* frame.css */
+
+html {
+    font-family: var(--ff-montserrat);
+    font-size: 10px;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: darkolivegreen;
+    color: var(--davys-gray);
+    font-size: 1.6rem;
+    line-height: 1.75;
+  }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      color: aqua;
+    }
+    
+    
+    .section {
+      margin-bottom: 40px;
+      
+    }
+    
+    .section-subtitle {
+      color: white
+      font-size: 18px;
+    }
+    
+    .section-title {
+      color: #333;
+      font-size: 36px;
+      margin-top: 5px;
+    }
+    
+    .grid-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .course-card {
+      border: 1px solid #ccc;
+      background-color: #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    
+    .card-banner {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    .img-holder {
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+    }
+    
+    .img-cover {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .card-content {
+      padding: 20px;
+    }
+    
+    .card-price {
+      font-size: 24px;
+      color: #333;
+    }
+    
+    .card-author {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    
+    .card-link {
+      text-decoration: none;
+      color: #666;
+    }
+    
+    .card-title {
+      margin-top: 10px;
+      font-size: 20px;
+      color: #333;
+    }
+    
+    .card-meta-list {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+    }
+    
+    .card-meta-item {
+      margin-right: 20px;
+    }
+    
+    .card-meta-text {
+      font-size: 14px;
+      color: #666;
+    }
+    
